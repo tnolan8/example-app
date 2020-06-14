@@ -1,0 +1,61 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-link-http": "^1.5.17",
+    "graphql": "^15.0.0",
+    "http-server": "^0.12.3",
+    "p5": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-p5-wrapper": "^2.0.0",
+    "react-responsive-carousel": "^3.2.7",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
+    "react-visibility-sensor": "^5.1.1",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "serve": "^11.3.2",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.14.0",
+    "@graphql-codegen/fragment-matcher": "^1.14.0",
+    "@graphql-codegen/typescript": "1.14.0",
+    "@graphql-codegen/typescript-operations": "1.14.0",
+    "@graphql-codegen/typescript-react-apollo": "1.14.0",
+    "@graphql-codegen/introspection": "1.14.0"
+  }
+}
